@@ -9,7 +9,7 @@
 </head>
 <body>
     
-    <div class="container">
+    <div class="nav-container">
         <nav class="navbar">
             <img src="./assets/images/Capra_Studios_logo_black.png" alt="">
             <div>
@@ -22,9 +22,9 @@
 
     <div class="container">
         <header class="hero-section">
-            <video src="./assets/videos/Hero-video-Capra-Studios.mp4"></video>
-            <div>
+            <div class="hero-text">
                 <h1>Studio photography</h1>
+                <hr>
                 <p>We help new models create their profesional portolio.</p>
             </div>
         </header>
@@ -32,9 +32,10 @@
 
     <div class="container">
         <section class="about-us">
-            <img src="./assets/images/pexels-ron-lach-9810392.jpg" alt="">
+            <video src="./assets/videos/Hero-video-Capra-Studios.mp4" autoplay loop muted></video>
             <div>
                 <h2>About Us</h2>
+                <hr>
                 <p>We are a photograph studio in the heart of Amsterdam.</p>
             </div>
         </section>
@@ -42,37 +43,45 @@
 
     <div class="container">
         <section class="portfolio">
-            <h2>Portfolio</h2>
             <div>
-                <img src="./assets/images/pexels-anastasiya-gepp-2065200 (1).jpg" alt="">
-                <img src="./assets/images/pexels-jack-winbow-1457983.jpg" alt="">
+                <h2>Portfolio</h2>
+                <hr>
+            </div>
+            <div class="photos">
                 <img src="./assets/images/pexels-godisable-jacob-833185.jpg" alt="">
+                <img src="./assets/images/pexels-anastasiya-gepp-2065200 (1).jpg" alt="">
+                <img src="./assets/images/pexels-godisable-jacob-818992 (1).jpg" alt="">
             </div>
         </section>
     </div>
 
     <div class="container">
         <section class="contact">
-            <h2>Contact</h2>
             <div>
-                <form action="post">
-                    <label for="fname">First name:</label><br>
-                    <input type="text" id="fname" name="fname" required><br>
-                    <label for="lname">Last name:</label><br>
-                    <input type="text" id="lname" name="lname"><br>
-                    <label for="email">Email:</label><br>
-                    <input type="email" id="email" name="email" required><br>
-                    <label for="phone">Phone:</label><br>
-                    <input type="text" id="phone" name="phone"><br>
-                    <label for="message">Message:</label><br>
-                    <textarea id="message" name="message" required></textarea><br>
-                    <button type="submit">Submit</button>
-                  </form> 
+                <h2>Contact</h2>
+                <hr>
+            </div>
+            <div class="center-form">
+                <div class="form">
+                    <form action="post">
+                        <label for="fname">First name:</label><br>
+                        <input type="text" id="fname" name="fname" required><br>
+                        <label for="lname">Last name:</label><br>
+                        <input type="text" id="lname" name="lname"><br>
+                        <label for="email">Email:</label><br>
+                        <input type="email" id="email" name="email" required><br>
+                        <label for="phone">Phone:</label><br>
+                        <input type="text" id="phone" name="phone"><br>
+                        <label for="message">Message:</label><br>
+                        <textarea id="message" name="message" required></textarea><br>
+                        <button type="submit">Submit</button>
+                    </form> 
+                </div>
             </div>
         </section>
     </div>
 
-    <div class="container">
+    <div class="footer-container">
         <footer class="footer">
             <i class="fa-brands fa-instagram"></i>
             <i class="fa-brands fa-facebook"></i>
