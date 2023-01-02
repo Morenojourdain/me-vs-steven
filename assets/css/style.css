@@ -1,0 +1,64 @@
+/* import */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap');
+
+/* default  */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+body {
+    font-family: 'Iter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #121212;
+    background-image: none;
+}
+
+div {
+    border: 1px solid blue;
+}
+
+h1, h2 {
+    font-family: 'Iter', sans-serif;
+    font-weight: 300;
+}
+
+h1 {
+    font-size: 2.4em;
+}
+
+h2 {
+    font-size: 2.2em;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+/* container  */
+
+.container {
+    margin: 0 15%;
+}
+
+/* nav */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar img {
+    max-height: 5em;
+    width: auto;
+}
+
+.navbar a {
+    margin-left: 2em;
+}
